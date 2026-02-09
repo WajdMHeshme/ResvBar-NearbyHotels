@@ -1,5 +1,5 @@
 const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
-const SEARCH_RADIUS = 1000;
+const SEARCH_RADIUS = 2000;
 
 function buildQuery(lat, lng, radius = SEARCH_RADIUS) {
   return `
