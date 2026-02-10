@@ -8,12 +8,6 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
 </head>
 
 <body class="relative flex items-center justify-center min-h-screen
@@ -74,7 +68,7 @@
         </div>
 
         <footer class="text-xs text-slate-400">
-            © {{ date('Y') }} ResvBAR | Crafted with by Wajd Heshme
+            © {{ date('Y') }} ResvBAR | Created by Wajd Heshme
         </footer>
 
     </div>

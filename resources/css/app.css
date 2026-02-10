@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Global layout */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Topbar height variable */
+:root {
+    --topbar-h: 64px;
+}
+
+/* Map container */
+#map {
+    height: calc(100vh - var(--topbar-h));
+    width: 100%;
+}
+
+/* Background logo behavior */
+.bg-logo img {
+    pointer-events: none;
+}
+
+/* Fix Leaflet controls above overlays */
+.leaflet-control-container {
+    z-index: 1001;
+}
